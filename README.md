@@ -14,11 +14,12 @@ Before you begin, ensure you have met the following requirements:
 
 ## Setup
 
-``bash
+```bash
 cd express-mongodb-crud-api
-
-``bash
+```
+```bash
 npm install
+```
 
 -Configure MongoDB Atlas connection:
 
@@ -29,13 +30,15 @@ npm install
 ###env
 
 -Copy code
-
+```
 -MONGODB_URI=your_connection_string_here
+```
 
 ##Start the server:
 
-``bash
+```bash
 npm run dev
+```
 
 ##Usage
 
@@ -51,6 +54,8 @@ npm run dev
 
 -DELETE /api/resource/:id: Delete a resource by ID.
 
+```
 ##License
 
 This project is licensed under the MIT License.
+```
