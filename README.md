@@ -27,20 +27,20 @@ npm install
 
 -Add your MongoDB Atlas connection string to the .env file:
 
-###env
+### env
 
 -Copy code
 ```
 -MONGODB_URI=your_connection_string_here
 ```
 
-##Start the server:
+## Start the server:
 
 ```bash
 npm run dev
 ```
 
-##Usage
+## Usage
 
 -Make HTTP requests to the provided routes for CRUD operations:
 
